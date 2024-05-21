@@ -1,0 +1,806 @@
+body{
+    font-family:  sans-serif;
+}
+#cen1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60vh;
+    background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+    width: 100%;
+    background-size: cover; 
+    transition: all 1.4s ease 0s;
+
+}
+#pad a{
+    margin-left: 100px;
+    color: aliceblue;
+    margin-top: 20px;
+    font-size:small;
+    font-weight: 600;
+    text-decoration: none;
+}
+#nav_bar ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 800px;
+    margin-top: -30px;
+}
+#nav_bar ul li a{
+    padding-right: 30px;
+    font-size: large;
+    font-weight: 400;
+    color: aliceblue;
+    text-decoration: none;
+}
+#head{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 50px;
+    font-style: italic;
+    font-size: 85px;
+}
+#head_ali{
+    color:aliceblue;
+    text-align: center;
+    margin-top: -60px;
+    font-size: 38px;
+}
+#line{
+    display: flex;
+    color: black;
+    z-index: 1;
+    margin-left: 620px;
+    margin-bottom: -44px;
+    font-size: 25px;
+}
+#icon_bar{
+    
+    display: flex;
+    color: gray;
+    margin-left: 240px;
+    margin-top: 20px;
+}
+#search_bar{
+    display: flex;
+    margin-left: 660px;
+    margin-top: -57px;
+    height: 50px;
+    border: none;
+    font-size: 14px;
+    padding-left: 30px;
+    width: 30%;
+    border-radius: 0.6rem;
+}
+#aling{
+    display: flex;
+    background-color:aliceblue;
+    height: 60px;
+    border-radius: 0.6rem;
+    margin-top: 3px;
+    margin-left: 390px;
+    margin-right: 370px;
+}
+#min_search{
+    position: absolute;
+    margin-top: 3px;
+    height: 50px;
+    border-radius: 0.6rem;
+    margin-left: 5px;
+    padding-right: 37px;
+    width: 10%;
+    border: 0px;
+    padding-left: 28px;
+    font-size: 15px;
+}
+#icon_bar1{
+    padding-left: 13px;
+    padding-top: 20px;
+    color: red;
+    z-index: 1;
+}
+#product1{
+    text-align: center;
+}
+#product1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 450px;
+    
+}
+#product1 .pro{
+    width: 30%;
+    height: 300px;
+    border: 1px solid antiquewhite;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgb(0, 0, 0,0.03);
+    margin: 20px 0;
+    transition: 0.6s ease;
+}
+#product1 .pro:hover{
+    transform: scale(1.1); /* Increase the size on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+    z-index: 1;
+}
+#product1 .pro img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+#product1 .pro .des{
+    text-align: start;
+    
+}
+#product1 .pro .des span{
+    display: flex;
+    color:black;
+    font-size: 20px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+#product1 .pro .des p{
+    display: flex;
+    padding-left: 10px;
+    margin-top: 9.5px;
+    color: grey;
+    font-size: 19px;
+}
+#product2 #h1{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 100px;
+    font-size: 40px;
+}
+#product2 #p{
+    display: flex;
+    margin-left: 100px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: grey;
+}
+#product2 #a{
+    display: flex;
+    margin-left: 1140px;
+    margin-top: -45px;
+    text-decoration: none;
+    color: red;
+    font-size: 19px;
+}
+.container {
+    display: flex; /* Use flexbox */
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.pro-container1 {
+    margin-right: -120px; /* Adjust spacing between elements */
+}
+.pro1 {
+    border-radius: 10px; /* Add border radius */
+    
+}
+.pro1 img {
+    width: 65%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#contaent1 #p1{
+    display: flex;
+    color: whitesmoke;
+    margin-left: 120px;
+    margin-top: -60px;
+    cursor: pointer;
+}
+#contaent1 #s1{
+    display: flex;
+    color: whitesmoke;
+    margin-left: 120px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+#contaent2 #p2{
+    display: flex;
+    color: whitesmoke;
+    margin-left: 450px;
+    margin-top: -40px;
+    cursor: pointer;
+}
+#contaent2 #s2{
+    display: flex;
+    color: whitesmoke;
+    margin-left: 450px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+#contaent3 #p3{
+    display: flex;
+    color: whitesmoke;
+    margin-left: 780px;
+    margin-top: -40px;
+    cursor: pointer;
+}
+#contaent3 #s3{
+    display: flex;
+    color: whitesmoke;
+    margin-left: 780px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+#contaent4 #p4{
+    display: flex;
+    color: whitesmoke;
+    margin-left: 1110px;
+    margin-top: -40px;
+    cursor: pointer;
+}
+#contaent4 #s4{
+    display: flex;
+    color: whitesmoke;
+    margin-left: 1110px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+#product3 #p5{
+    display: flex;
+    margin-top: 120px;
+    margin-left: 100px;
+    font-size: 35px;
+    font-weight: 100;
+}
+#product3 #s5{
+    display: flex;
+    margin-left: 600px;
+    margin-top: -76px;
+    font-size: 35px;
+}
+#contact1{
+    display: flex;
+    border:  1px solid lightsteelblue;
+    height: 65px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 1000px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgb(0, 0, 0,0.03);
+}
+#contact1:hover{
+    box-shadow: 20px 20px 30px rgb(70, 62, 221,0.2);
+}
+#contact1 #p6{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#contact1 #s6{
+    margin-top: 40px;
+    font-size: 15px;
+    margin-left: -100px;
+}
+#contact1 #ar_sp{
+    margin-left: 280px;
+    margin-top: 25px;
+    font-size: 15px;
+}
+#contact2{
+    display: flex;
+    border:  1px solid lightsteelblue;
+    height: 65px;
+    margin-top: -67px;
+    margin-left: 530px;
+    margin-right: 570px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgb(0, 0, 0,0.03);
+}
+#contact2:hover{
+    box-shadow: 20px 20px 30px rgb(70, 62, 221,0.2);
+}
+#contact2 #p7{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#contact2 #s7{
+    margin-top: 40px;
+    font-size: 15px;
+    margin-left: -109px;
+}
+#contact2 #ar_sp{
+    margin-left: 280px;
+    margin-top: 25px;
+    font-size: 15px;
+}
+#contact3{
+    display: flex;
+    border: 1px solid lightsteelblue;
+    height: 65px;
+    margin-top: -67px;
+    margin-left: 960px;
+    margin-right: 140px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgb(0, 0, 0,0.03);
+}
+#contact3:hover{
+    box-shadow: 20px 20px 30px rgb(70, 62, 221,0.2);
+}
+#contact3 #p8{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#contact3 #s8{
+    margin-top: 40px;
+    font-size: 15px;
+    margin-left: -86px;
+}
+#contact3 #ar_sp{
+    margin-left: 270px;
+    margin-top: 25px;
+    font-size: 15px;
+}
+#contact4{
+    display: flex;
+    border:  1px solid lightsteelblue;
+    height: 65px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 1000px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgb(0, 0, 0,0.03);
+}
+#contact4:hover{
+    box-shadow: 20px 20px 30px rgb(70, 62, 221,0.2);
+}
+#contact4 #p9{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#contact4 #s9{
+    margin-top: 40px;
+    font-size: 15px;
+    margin-left: -120px;
+}
+#contact4 #ar_sp{
+    margin-left: 280px;
+    margin-top: 25px;
+    font-size: 15px;
+}
+#contact5{
+    display: flex;
+    border:  1px solid lightsteelblue;
+    height: 65px;
+    margin-top: -67px;
+    margin-left: 530px;
+    margin-right: 570px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgb(0, 0, 0,0.03);
+}
+#contact5:hover{
+    box-shadow: 20px 20px 30px rgb(70, 62, 221,0.2);
+}
+#contact5 #p10{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#contact5 #s10{
+    margin-top: 40px;
+    font-size: 15px;
+    margin-left: -43px;
+}
+#contact5 #ar_sp{
+    margin-left: 280px;
+    margin-top: 25px;
+    font-size: 15px;
+}
+#contact6{
+    display: flex;
+    border: 1px solid lightsteelblue;
+    height: 65px;
+    margin-top: -67px;
+    margin-left: 960px;
+    margin-right: 140px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgb(0, 0, 0,0.03);
+}
+#contact6:hover{
+    box-shadow: 20px 20px 30px rgb(70, 62, 221,0.2);
+}
+#contact6 #p11{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#contact6 #s11{
+    margin-top: 40px;
+    font-size: 15px;
+    margin-left: -90px;
+}
+#contact6 #ar_sp{
+    margin-left: 270px;
+    margin-top: 25px;
+    font-size: 15px;
+}
+#contact7{
+    display: flex;
+    border:  1px solid lightsteelblue;
+    height: 65px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 1000px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgb(0, 0, 0,0.03);
+}
+#contact7:hover{
+    box-shadow: 20px 20px 30px rgb(70, 62, 221,0.2);
+}
+#contact7 #p12{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#contact7 #s12{
+    margin-top: 40px;
+    font-size: 15px;
+    margin-left: -82px;
+}
+#contact7 #ar_sp{
+    margin-left: 280px;
+    margin-top: 25px;
+    font-size: 15px;
+}
+#contact8{
+    display: flex;
+    border:  1px solid lightsteelblue;
+    height: 65px;
+    margin-top: -67px;
+    margin-left: 530px;
+    margin-right: 570px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgb(0, 0, 0,0.03);
+}
+#contact8:hover{
+    box-shadow: 20px 20px 30px rgb(70, 62, 221,0.2);
+}
+#contact8 #p13{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#contact8 #s13{
+    margin-top: 40px;
+    font-size: 15px;
+    margin-left: -127px;
+}
+#ar_sp1{
+    margin-left: 280px;
+    margin-top: 25px;
+    font-size: 15px;
+}
+#contact9{
+    display: flex;
+    border: 1px solid lightsteelblue;
+    height: 65px;
+    margin-top: -67px;
+    margin-left: 960px;
+    margin-right: 140px;
+    border-radius: 10px;
+    cursor: pointer;
+     box-shadow: 20px 20px 30px rgb(0, 0, 0,0.03);
+}
+#contact9:hover{
+    box-shadow: 20px 20px 30px rgb(70, 62, 221,0.2);
+}
+#contact9 #p14{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+#contact9 #ar_sp{
+    margin-left: 270px;
+    margin-top: 25px;
+    font-size: 15px;
+}
+#product4{
+    margin-top: 150px;
+    height:430px;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-color:azure;
+}
+#phon_log4{
+    display: flex;
+    margin-top: -370px;
+    margin-left: 450px;
+    height: 100%;
+    width: 20%;
+    border-radius: 50px;
+}
+#h1_sty4{
+    display: flex;
+    margin-left: 800px;
+    padding-top: 60px;
+    font-size: 40px;
+    font-weight: lighter;
+}
+#p_sty4{
+    display: flex;
+    margin-left: 800px;
+    margin-top: -20px;
+    font-size: 20px;
+}
+#but_rad4{
+    margin-left: 800px; 
+    font-size: 20px;
+}
+#but_rad5{
+    margin-top: -25px;
+    margin-left: 950px; 
+    font-size: 20px;
+}
+.cust_rad{
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 2px solid red; /* Default color of the radio button */
+    border-radius: 50%; /* Make it circular */
+    outline: none;
+    cursor: pointer;
+    position: relative;
+}
+.cust_rad:checked::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: red; /* Change the color when checked */
+    border-radius: 50%; /* Make it circular */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: background-color 0.3s ease;
+}
+#email_sty{
+    margin-top: 20px;
+    margin-left: 800px;
+    padding-right: 120px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 0.5px solid gray;
+}
+#sub_4{
+    display: flex;
+    margin-left: 1160px;
+    margin-top: -43px;
+    height: 43px;
+    width: 10%;
+    cursor: pointer;
+    padding-left: 15px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 0.5px solid gray;
+    background-color: red;
+    color: aliceblue;
+}
+#small_4{
+    display: flex;
+    margin-left: 800px;
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 20px;
+    color: gray;
+}
+#img_log_1{
+    display: flex;
+    width: 10%;
+    margin-left: 790px;
+    margin-top: -30px;
+    cursor: pointer;
+}
+#img_log_2{
+    display: flex;
+    width: 10%;
+    margin-left: 940px;
+    margin-top: -55px;
+    cursor: pointer;
+}
+#product5 #h1_5{
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 100px; 
+}
+.dropbtn {
+    padding-left: 20px;
+    font-size: 15px;
+    padding-right: 1100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 10px; 
+    border: 0.5px solid wheat;
+    background-color: white;
+
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: calc(100% + 40px); /* Increase width by adding 40px */
+    left: -24px; /* Move left to add margin */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: lightblue;
+}
+.dropbtn1 {
+    margin-top: 20px;
+    padding-left: 20px;
+    font-size: 15px;
+    padding-right: 1050px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 10px; 
+    border: none;
+    border: 0.5px solid wheat;
+    background-color: white;
+}
+.dropdown:hover .dropbtn1 {
+    background-color: lightblue;
+}
+.dropbtn2 {
+    margin-top: 20px;
+    padding-left: 20px;
+    font-size: 15px;
+    padding-right: 1120px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 10px; 
+    border: none;
+    border: 0.5px solid wheat;
+    background-color: white;
+}
+.dropdown:hover .dropbtn2 {
+    background-color: lightblue;
+}
+.dropbtn3 {
+    margin-top: 20px;
+    padding-left: 20px;
+    font-size: 15px;
+    padding-right: 1142px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 10px; 
+    border: none;
+    border: 0.5px solid wheat;
+    background-color: white;
+}
+.dropdown:hover .dropbtn3 {
+    background-color: lightblue;
+}
+footer{
+    margin-top: 100px;
+    border-radius: 20px;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: lavender;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#head1{
+    text-align: center;
+    color: black;
+    margin-top: 50px;
+    font-style: italic;
+    font-size: 40px;
+    padding-right: 1000px;
+}
+.head_f{
+    padding-left: 60px;
+    font-weight:bold;
+    font-size: 15px;  
+    margin-bottom: 20px; 
+    color: black;
+}
+#col{
+    margin-bottom: 20px;
+    margin-top: 123px; 
+    margin-left: -350px;
+}
+#col1{
+   margin-left: 250px;
+   margin-top: -220px;
+}
+#col2{
+  margin-left: 500px;
+  margin-top: -163px;  
+}
+#col3{
+    margin-left: 800px;
+    margin-top: -87px;
+}
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+footer a{
+    padding-left: 60px;
+    font-size: 14px;
+    text-decoration: none;
+    color: grey;
+    margin-bottom:10px;
+}
+#follow{
+    margin-left: 1050px;
+    margin-top: -137px;
+}
+footer .copyright{
+    width: 100%;
+    text-align: center;
+}
+#follow i{
+    color: black;
+    padding-left: 30px;
+    padding-right: px;
+    cursor:pointer;
+}
+#follow i:hover,
+footer a:hover{
+    color: #088178;
+}
+#img_a{
+    display: flex;
+    margin-left: 1200px;
+    margin-top: -150px;
+    cursor: pointer;
+}
+#img_p{
+    display: flex;
+    margin-left: 1200px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+#copyright{
+    padding-top: 50px;
+    font-size: small;
+    margin-left: 120px;
+}
